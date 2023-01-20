@@ -5,7 +5,7 @@ variable "create_vpc" {
 }
 
 variable "name" {
-  description = "Name to be used on all the resources as identifier"
+  description = "Name to be used on all the resources as identifier within the VPC"
   type        = string
   default     = ""
 }
